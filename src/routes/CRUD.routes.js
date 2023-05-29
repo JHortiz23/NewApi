@@ -13,5 +13,6 @@ router.delete('/DeleteData/:Id', DeleteData)
 router.post('/SendData', SendData)
 
 router.put('/UpdateData/:Id', UpdateData)
+
 //EXPORTAR
 export default router
