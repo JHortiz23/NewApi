@@ -26,6 +26,6 @@ export async function getConection() {
 
     }
 }
-
+//status
 //ir a Index.js y importar la cenexion que se encuentra en la carperta de database
 export {sql}
