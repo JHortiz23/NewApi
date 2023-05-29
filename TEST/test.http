@@ -1,0 +1,16 @@
+@send = http://localhost:4000/GetGeneralData
+
+GET {{send}}
+###
+PUT {{send}}/53
+Content-Type: application/json
+
+//debe haber este espacio
+{
+    "names": "motoressssssssssss",
+    "country": "Costa Rica",
+    "type": "mm"
+}
+
+###
+DELETE  {{send}}/49
